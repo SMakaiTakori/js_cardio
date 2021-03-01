@@ -13,7 +13,7 @@ function longestWord(sen) {
     (word) => word.length === sorted[0].length
   );
   //Check if there is more than one array value and return word if only one
-  if (longestWordArr === 1) {
+  if (longestWordArr.length === 1) {
     return longestWordArr[0];
   } else {
     return longestWordArr;
